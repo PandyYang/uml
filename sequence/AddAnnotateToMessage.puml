@@ -1,0 +1,13 @@
+@startuml
+'note left 或者 note right 关键词给消息添加注释'
+'也能使用end note来添加多行注释'
+Alice -> Bob : hello
+note left: this is a first note
+Bob -> Alice : ok
+note right: this is another note
+Bob -> Bob : I am thinking
+note left
+can also be define
+on several lines
+end note
+@enduml

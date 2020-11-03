@@ -1,0 +1,6 @@
+@startuml
+'让文字在箭头底下呈现'
+skinparam responseMessageBelowArrow true
+Bob -> Alice: hello
+Alice -> Bob: ok
+@enduml
